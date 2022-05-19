@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title> make a online job application form</title>
+	<link rel="stylesheet" href="">
+	<style>
+		body{
+			font-family: "Comic Sans MS" Sans-serif;
+			background-color: orange;
+		}
+		h2{
+			background-color: red;
+			text-align: center;
+			padding: 10px;
+			color: whitesmoke;
+		}
+		td{
+			padding: 8px;
+		}
+		input{
+			height: 30px;
+			border-radius: 10px;
+			}
+			input:focus{
+				outline: none;
+				border:1px solid green;
+			}
+			textarea{
+				border-radius: 10px;
+				box-shadow:5px 5px 5px black;
+			}
+		.button{
+			background-color: blue;
+			color: white;
+			font-size: 17px;
+			padding: 0px 25px;
+			border: none;
+			margin-bottom: 30px;
+		}
+		.button{
+			cursor: pointer;
+			box-shadow: 5px 5px 5px black;
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center"><i>ONLINE JOB A<sub>P</sub><sup>P</sup><sub>L</sub><sup>I</sup><sub>C</sub><sup>A</sup><sub>T</sub><sup>I</sup><sub>O</sub><sup>N</sup> <i>FORM</i></i></h1>
+	<form action="JobAppForm-response.jsp">
+		<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+		<div id="personal information">
+			<h2>PERSONAL INFORMATION</h2>
+			<table width="100%">
+				<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+				<tr>
+					<td>First Name</td>
+					<td>
+						<input type="text" size="25" name="firstname">
+					</td>
+					<td>Second Name</td>
+					<td>
+						<input type="text" size="25" name="secondname">
+					</td>
+					<td>Last Name</td>
+					<td>
+						<input type="text" size="25" name="lastname">
+					</td>
+				</tr>
+				<tr>
+					<td>Fathers Name</td>
+					<td>
+						<input type="text" size="25" name="fathersname">
+					</td>
+					<td>Mothers Name</td>
+					<td>
+						<input type="text" size="25" name="mothersname">
+					</td>
+				</tr>
+				<tr>
+					<td>Current Address</td>
+					<td>
+						<textarea cols="25" rows="5" name="currentadd"></textarea>
+					</td>
+					<td>Permanent Address</td>
+					<td>
+						<textarea cols="25" rows="5" name="permanentadd"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Phone Number</td>
+					<td>
+						<input type="text" size="25" name="phoneno">
+					</td>
+				</tr>
+				<tr>
+					<td>Home Number</td>
+					<td>
+						<input type="text" size="25" name="homeno">
+					</td>
+					<td>Mobile Number</td>
+					<td>
+						<input type="Number" name="mblno">
+					</td>
+				</tr>
+				<tr>
+					<td>Date Of Birth</td>
+					<td>
+						<input type="Date" name="dob">
+					</td>
+					<td>Place of Birth</td>
+					<td>
+						<input type="text" size="25" name="pob">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Select Gender</td>
+					<td>
+						<input type="radio" name="Gender" value="Male">Male
+					</td>
+					<td>
+						<input type="radio" name="Gender" value="Female">Female
+					</td>
+				</tr>
+				<tr>
+					<td>Highest Qualifications</td>
+					<td>
+						<input type="text" size="25" name="highestqlf">
+					</td>
+					<td>Year Of Passing</td>
+					<td>
+						<input type="month" name="yop">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Languages Known</td>
+					<td>
+						<input type="checkbox" name="Languages" value="Hindi">Hindi
+					</td>
+					<td>
+						<input type="checkbox" name="Languages" value="English">English
+					</td>
+					<td>
+						<input type="checkbox" name="Languages" value="Odia">Odia
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2">Select Your Hobbies</td>
+					<td>
+						<input type="checkbox" value="sleeping" name="hobbies">Sleeping
+					</td>
+					<td>
+						<input type="checkbox" value="coding" name="hobbies">Coding
+					</td>
+					<td>
+						<input type="checkbox" value="eating" name="hobbies">eating
+					</td>
+					<td>
+						<input type="checkbox" value="watching " name="hobbies"> Watching;)
+					</td>
+				</tr>
+				<tr>
+					<td colspan="1">About Yourself</td>
+					<td>
+						<textarea cols="40" rows="5" name="abturslf"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Nationality</td>
+					<td>
+						<select name="nationality">
+							<option>Indian</option>
+							<option>American</option>
+							<option>Rusian</option>
+							<option>Others</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>AdharCard Number</td>
+					<td>
+						<input type="Number" name="adhar">
+					</td>
+					<td>PAN CARD Number</td>
+					<td>
+						<input type="text" size="25" name="pan">
+					</td>
+				</tr>
+			</table>
+			</div>
+			<hr>
+			<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+			<!------Educational details--------->
+			<div id="Educational-details">
+				<h2>EDUCATIONAL DETAILS</h2>
+				<table width="100%" >
+				<tr>
+					<td>SL NO</td>
+					<td>Qualification</td>
+					<td>Institute / University</td>
+					<td>Year of Passing</td>
+					<td>Marks(%)</td>
+				</tr>	
+				<tr>
+					<td>1</td>
+					<td>
+						<input type="text" size="25" name="qlf1">
+					</td>
+					<td>
+						<input type="text" size="25" name="university1">
+					</td>
+					<td>
+						<input type="month" name="month1" >
+					</td>
+					<td>
+						<input type="Number" min="0" max="100" name="percentage1">
+					</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>
+						<input type="text" size="25" name="qlf2">
+					</td>
+					<td>
+						<input type="text" size="25" name="university2">
+					</td>
+					<td>
+						<input type="month" name="month2">
+					</td>
+					<td>
+						<input type="Number" min="0" max="100" name="percentage2">
+					</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>
+						<input type="text" size="25" name="qlf3">
+					</td>
+					<td>
+						<input type="text" size="25" name="university3">
+					</td>
+					<td>
+						<input type="month" name="month3">
+					</td>
+					<td>
+						<input type="Number" min="0" max="100" name="percentage3">
+					</td>
+				</tr>
+				</table>
+			</div>
+			<!-------Work experience 1------->
+			<div id="Work experience 1">
+			<h2>Work Experience 1</h2>
+			<table width="100%">
+				<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+				<tr>
+					<td>SL NO</td>
+					<td>Company Address</td>
+					<td>Work/Roles</td>
+					<td colspan="2">Durations from-to</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<textarea cols="25" rows="5" name="cmpnyadd"></textarea>
+					</td>
+					<td>
+						<textarea cols="25" rows="5" name="roles"></textarea>
+					</td>
+					<td>
+						<input type="month" name="from">
+					</td>
+					<td>
+						<input type="month" name="to">
+					</td>
+				</tr>
+				
+			</table>	
+			</div>
+			<!-------Work experience 2------->
+			<div id="Work experience 2">
+			<h2>Work Experience 2</h2>
+			<table width="100%">
+				<tr>
+					<td>SL NO</td>
+					<td>Company Address</td>
+					<td>Work/Roles</td>
+					<td colspan="2">Durations from -to</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<textarea cols="25" rows="5" name="cmpnyadd1"></textarea>
+					</td>
+					<td>
+						<textarea cols="25" rows="5" name="roles1"></textarea>
+					</td>
+					<td>
+						<input type="month" name="from1">
+					</td>
+					<td>
+						<input type="month" name="to1">
+					</td>
+				</tr>
+				
+			</table>	
+			</div>
+			<!-------Work experience 3------->
+			<div id="Work experience 3">
+			<h2>Work Experience 3</h2>
+			<table width="100%">
+				<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+				<tr>
+					<td>SL NO</td>
+					<td>Company Address</td>
+					<td>Work/Roles</td>
+					<td colspan="2">Durations from -to</td>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>
+						<textarea cols="25" rows="5" name="cmpnyadd2"></textarea>
+					</td>
+					<td>
+						<textarea cols="25" rows="5" name="roles2"></textarea>
+					</td>
+					<td>
+						<input type="month" name="from2">
+					</td>
+					<td>
+						<input type="month" name="to2">
+					</td>
+				</tr>
+				
+			</table>	
+			</div>
+			<!---Other Details---->
+			<div id="Other-Details">
+				<h2>OTHER DETAILS</h2>
+				<table width="100%">
+					<tr>
+					<td colspan="2">JobType</td>
+					<td>
+						<input type="radio" name="Jobtype1" value="Permanent">Permanent
+					</td>
+					<td>
+						<input type="radio" name="Jobtype1" value="contract">Contract
+					</td>
+				    <td>
+						<input type="radio" name="Jobtype1" value="Other">Other
+					</td> 
+				</tr>
+				<tr>
+					<td>Date of Joining</td>
+					<td>
+						<input type="Date" name="doj">
+					</td>
+					<td>Time of Joining</td>
+					<td>
+						<input type="Time" name="toj">
+					</td>
+				</tr>
+				<tr>
+					<td>Preferred Job Location</td>
+					<td>
+						<input type="radio" name="jobLocation1" value="hyderabad">H<sub>Y</sub>DERABAD
+					</td>
+					<td>
+						<input type="radio" name="jobLocation1" value="bangalore">BANGALORE
+					</td>
+					<td>
+						<input type="radio" name="jobLocation1" value="bhubaneswar">BHUBANESWAR
+					</td>
+					<td>
+						<input type="radio" name="jobLocation1" value="work from home">WORK FROM HOME
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="checkbox">
+					</td>
+					<td colspan="3">
+					<p name="cond">This is to inform that, All the above Mentioned information is correct As per my Knowledge.</p>
+				    </td>
+				</tr>
+                <tr>
+                	<td></td>
+                	<td></td>
+                	<td>
+                		<input type="submit" value="submit" class="button">
+                	</td>
+                	<td>
+                		<input type="Reset" value="Reset" class="button">
+                	</td>
+                	<td></td>
+                </tr>
+			</table>
+			</div>
+			<div id="main-footer">
+	<h2>copyright &copy;2020, Online job Application Form</h2>
+	<!----the main navigation------>
+		<div align="center">
+			<a href="#personal information">Personal Information</a>|
+			<a href="#Educational-details">Educational Details</a>|
+			<a href="#Work experience 1"">Work Experience 1</a>
+			<a href="#Work experience 2"">Work Experience 2</a>
+			<a href="#Work experience 3"">Work Experience 3</a>
+			<a href="#Other-Details">Other Details</a>
+			<a href="#main-footer">Copy right</a>
+			
+		</div>
+	<p align="center">All Right Reserved</p>
+	<p align="center">Developed & Maintained by Ritesh Pradhan</p>
+	<p align="center"><a href="https://www.facebook.com/profile.php?id=100013679471600">MY FACEBOOK PROFILE</a>and <a href="https://www.instagram.com/ritesh2039">INSTAGRAM</a></p>
+	<br>
+	
+</div>
+	</form>
+	
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
